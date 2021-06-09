@@ -1,8 +1,8 @@
-//Es un custom hook que se encarga de manejar los formularios  
+//Custom hook encargado de manejar formularios  
 import { useState } from "react"
 
 
-//initialState va hacer igual a un objeto vacio para que no marque error 
+//initialState es igual a un objeto vacio para que no marque error 
 export const useForm = (initialState = {}) => {
 
     const [values, setValues] = useState(initialState);    
